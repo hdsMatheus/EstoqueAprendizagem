@@ -55,11 +55,29 @@ body {
 @media only screen and (max-width: 570px) {
   .stb1,
   .stb2 {
-    width: 30%;
-    height: 200px;
+    width: 50%;
+    height: 130px;
     padding: 20px;
   }
   .stb1 {
     margin-top: 40px;
+  }
+}
+@media only screen and (min-height: 1000px) {
+  .stb1,
+  .stb2 {
+    width: 70%;
+    height: 200px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .stb1 {
+    margin-top: 40px;
+  }
+  .sttitle {
+    font-size: 70px;
+  }
+  .stsub {
+    font-size: 30px;
   }
 }
